@@ -1,0 +1,265 @@
+# Single Round
+# Category format = :CATX:Category name, where X is the catgory number.
+# Question format = :QUESTX:$:Question test, where X is the question number
+#     and $ is the value displayed for the question.
+# Questions are linked to categories in groups of 5. For example, questions 1
+#     to 5 are in category 1, questions 6 to 10 in category 2, and so on.
+# Answer format = :ANSWERX:T/F:Answer text, where X is the question number and
+#     T/F is either T (for true) or F (for false). Answers are optional.
+# Answer order format = :ANSWERORDER1:randomized to shuffle the answers. Skip
+#     this statement if you do not wnat to randomize answers.
+# Explanation format = :EXPLANATIONX:Explanation text, where X is the question
+#     number. Note that you can force new lines using \n.
+
+:CAT1:Basics
+
+:QUEST1:100:Networking Classes are included in.
+:ANSWER1:F:Java.IO.*
+:ANSWER1:T:Java.net.*
+:ANSWER1:F:Java.util.*
+:ANSWER1:F:Java.lang.*
+:ANSWERORDER1:randomized
+:EXPLANATION1:When you look at the Greenfoot documentation, you see that GreenfootImage is an image for an Actor or World to display.
+
+:QUEST2:200:URL Stands for.
+:ANSWER2:F:Universal Resource Locator
+:ANSWER2:F:Unified Resource Locator
+:ANSWER2:T:Uniform Resource Locator
+:ANSWER2:F:Unique Resource Locator
+:ANSWERORDER2:randomized
+:EXPLANATION2:When you look at the Greenfoot documentation, you see that World is the world in which Actors live.
+
+:QUEST3:300:Which of the following classes contains IP Address.
+:ANSWER3:T:Inet Class
+:ANSWER3:F:URL Class
+:ANSWER3:F:URL Connection Class
+:ANSWER3:F:Socket Class
+:ANSWERORDER3:randomized
+:EXPLANATION3:When you look at the Greenfoot documentation, you see that Greenfoot is a utility class. One of its methods is playSound(), which plays a sound from a file.
+
+:QUEST4:400:Output of transport layer of TCP/IP is.
+:ANSWER4:F:Continuos stream of bytes
+:ANSWER4:F:Frame
+:ANSWER4:T:Packet
+:ANSWER4:F:Mac Frame
+:ANSWERORDER4:randomized
+:EXPLANATION4:Every scenario in Greenfoot subclasses World and Actor.
+
+:QUEST5:500:Output of Application Layer of TCP/IP is.
+:ANSWER5:T:Continous stream of bytes
+:ANSWER5:F:Frame
+:ANSWER5:F:Packet
+:ANSWER5:F:MAC Frame
+:ANSWERORDER5:randomized
+:EXPLANATION5:An Actor lives within a World subclass and often contains other objects such as GreenfootImage or String.
+
+:CAT2:RawData
+
+:QUEST6:100:Port Numbers are represented by.
+:ANSWER6:F:8 bits
+:ANSWER6:T:16 bits
+:ANSWER6:F:32 bits
+:ANSWER6:F:48 bits
+:ANSWERORDER6:randomized
+:EXPLANATION6:The data type of a variable defines the kind of data to store in a computer's main memory. The "int" data type stores integers, which are numbers without a decimal point.
+
+:QUEST7:200:Port Number for http protocol is.
+:ANSWER7:F:110
+:ANSWER7:F:60
+:ANSWER7:T:80
+:ANSWER7:F:22
+:ANSWERORDER7:randomized
+:EXPLANATION7:Sequences of characters are known as strings. The string data type in Java is "String".
+
+:QUEST8:300:Port Number for post office protocol(POP) & FTP are.
+:ANSWER8:F:25 & 119
+:ANSWER8:F:53 & 80
+:ANSWER8:F:110 & 25
+:ANSWER8:T:110 & 21
+:ANSWERORDER8:randomized
+:EXPLANATION8:The numbers 3, 4 and 5 are all integer numbers. An integer is zero or any positive or negative number without a decimal point. The data type for integers is "int".
+
+:QUEST9:400:Output Of IP Layer of TCP is.
+:ANSWER9:F:Continuos stream of bytes
+:ANSWER9:T:Frame
+:ANSWER9:F:Packet
+:ANSWER9:F:MAC Frame
+:ANSWERORDER9:randomized
+:EXPLANATION9:Sequences of characters inside double quotes are strings. Even though the characters look like numbers the quote marks around the numbers make them a string. Even though the string contains numbers, the double quote marks make this a string. In Java, the data type for a string is "String".
+
+:QUEST10:500:accept() method returns.
+:ANSWER10:T:Client socket
+:ANSWER10:F:Server Socket
+:ANSWER10:F:Socket
+:ANSWER10:F:Datagram Socket
+:ANSWERORDER10:randomized
+:EXPLANATION10:Pi is approximately 3.14159, which is a number with a decimal point. The "int" data type cannot store numbers with decimal points. Strings can store the digits making up Pi, even though your program cannot perform arithmetic on the number. Both double and float can store Pi as a number though double has more accuracy that float. Thus the best question is, "What is int"?
+
+:CAT3:Datagrams
+
+:QUEST11:100:Which of these is a bundle of information passed between machines?.
+:ANSWER11:F:Mime
+:ANSWER11:F:Cache
+:ANSWER11:T:Datagrams
+:ANSWER11:F:Datagram Socket
+:ANSWERORDER11:randomized
+:EXPLANATION11:A Cartesian coordinate system specifies each point in a plane using the numerical coordinates x & y.
+
+:QUEST12:200:Which of these class is necessary to implement datagrams.
+:ANSWER12:F:Datagrampacket
+:ANSWER12:F:Datagramsocket
+:ANSWER12:T:All mentioned above
+:ANSWER12:F:None mentioned above
+:ANSWERORDER12:randomized
+:EXPLANATION12:The upper left-hand corner is the origin (0, 0) of the Greenfoot coordinate system.
+
+:QUEST13:300:Which of these method of DatagramPacket is used to find the port number.
+:ANSWER13:T:port()
+:ANSWER13:F:getPort()
+:ANSWER13:F:findPort()
+:ANSWER13:F:receivePort()
+:ANSWERORDER13:randomized
+:EXPLANATION13:The setLocation() method of the Actor class assigns a new location for an Actor object. The location is specified as a cell index in the world.
+
+:QUEST14:400:Which of these method of DatagramPacket is used to obtain the byte array of data contained in a datagram.
+:ANSWER14:F:getData()
+:ANSWER14:F:getBytes()
+:ANSWER14:F:getArray()
+:ANSWER14:T:receiveBytes()
+:ANSWERORDER14:randomized
+:EXPLANATION14:Method getX() returns the x-coordinate of the object's current location and method getY() returns the y-coordinate of the object's current location.
+
+:QUEST15:500:Which of these method of DatagramPacket is used to find the length of byte array.
+:ANSWER15:F:getnumber()
+:ANSWER15:F:length()
+:ANSWER15:F:Length()
+:ANSWER15:T:getLength()
+:ANSWERORDER15:randomized
+:EXPLANATION15:These statements should be worked from the inside out. Method getX() returns the x-coordinate of the object's current location. By adding 1, you move the location one pixel to the right. Method getY() returns the y-coordinate of the object's current location. With the (x, y) locations computed, calling the setLocation() method will move an Actor one pixel to the right.
+
+:CAT4:Java
+
+:QUEST16:100:Which of these interface abstractes the output of messages from httpd.
+:ANSWER16:T:LogMessage
+:ANSWER16:F:LogResponse
+:ANSWER16:F:Httpdserver
+:ANSWER16:F:httpdResponse
+:ANSWERORDER16:randomized
+:EXPLANATION16:There are 360 degrees in a circle.
+
+:QUEST17:200:Which of these class is used to create servers that listen for either local or remote client programs.
+:ANSWER17:F:httpServer
+:ANSWER17:T:ServerSockets
+:ANSWER17:F:MimeHeader
+:ANSWER17:F:HttpResponse
+#:ANSWERORDER17:randomized
+:EXPLANATION17:Zero degrees is to the east and the angle of the circle increases clockwise.
+
+:QUEST18:300:Which of these is a standard for communicating multimedia content over email.
+:ANSWER18:F:http
+:ANSWER18:F:https
+:ANSWER18:T:Mime
+:ANSWER18:F:httpd
+:ANSWERORDER18:randomized
+:EXPLANATION18:The getRotation() method of the Actor class returns the current rotation of the object. Rotation is a degree value in the range of (0..359). Zero degrees is to the east and the angle increases clockwise.
+
+:QUEST19:400:Which of these methods is used to make raw MIME formatted string.
+:ANSWER19:T:parse()
+:ANSWER19:F:toString()
+:ANSWER19:F:getString()
+:ANSWER19:F:parseString()
+:ANSWERORDER19:randomized
+:EXPLANATION19:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. Use the setRotation() method to set the orientation (or heading) of an Actor.
+
+:QUEST20:500:Which of these class is used for operating on request from the client to the server.
+:ANSWER20:F:http
+:ANSWER20:F:httpDecoder
+:ANSWER20:F:httpConnection
+:ANSWER20:T:httpD
+:ANSWERORDER20:randomized
+:EXPLANATION20:Zero degrees is to the east and the angle of the circle increases clockwise. Straight up, or north, is at 270 degrees. To turn clockwise use a positive number.
+
+:CAT5:Http
+
+:QUEST21:100:Which of these methods of httpd class is used to read data from the stream.
+:ANSWER21:F:getDta()
+:ANSWER21:F:GetResponse()
+:ANSWER21:F:getStream()
+:ANSWER21:T:getRawRequest()
+:ANSWERORDER21:randomized
+:EXPLANATION21:Random numbers are a series of numbers that lack any pattern and thus appear random. Most times, a random number generator will produce psuedorandom sequences, where numbers appear to be random but are not. Psuedorandom numbers are often sufficient for computer programs, like video games, that need random numbers.
+
+:QUEST22:200:Which of these method of httpd class is used to get report on each hit to HTTP server.
+:ANSWER22:F:log()
+:ANSWER22:T:logEntry()
+:ANSWER22:F:logHttpd()
+:ANSWER22:F:logResponse()
+:ANSWERORDER22:randomized
+:EXPLANATION22:Monte Carlo is a city widely known for its casino. Monte Carlo methods rely on repeated computation of random or pseudorandom numbers.
+
+:QUEST23:300:Which of these method is used to find a URL from the cache of httpd.
+:ANSWER23:F:findfromCache()
+:ANSWER23:F:findFromCache()
+:ANSWER23:T:serveFromCache()
+:ANSWER23:F:getFromCache()
+#:ANSWERORDER23:randomized
+:EXPLANATION23:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Since the upper limit is excluded you must add one to the parameter to include the upper limit.
+
+:QUEST24:400:Which of these variables stores the number of hits that are successfully served out of cache.
+:ANSWER24:F:hits
+:ANSWER24:F:hitstocache
+:ANSWER24:F:hits_to_cache
+:ANSWER24:T:hits.to.cache
+:ANSWERORDER24:randomized
+:EXPLANATION24:The Greenfoot method getRandomNumber() returns a random number between 0 (inclusive) and an upper limit (exclusive). Thus the method Greenfoot.getRandomNumber(91) returns a random number between 0 and 90. By subtracting 45, the number shifts to between -45 and +45.
+
+:QUEST25:500:Which of these class is used for operating on request from the client to the server.
+:ANSWER25:F:http
+:ANSWER25:F:httpDecoder
+:ANSWER25:F:httpConnection
+:ANSWER25:T:httpd
+:ANSWERORDER25:randomized
+:EXPLANATION25:The expression "Greenfoot.getRandomNumber(100)" returns a random number between 0 and 99. By testing if the number is < 10, there is a 10% chance of turning when using code like:\n\nif (Greenfoot.getRandomNumber(100) < 10) {\n    // turn statement...\n}
+
+:CAT6:Network
+
+:QUEST26:100:Which of these is a protocol for breaking and sending packets to an address across a network.
+:ANSWER26:F:TCIP/IP
+:ANSWER26:F:DNS
+:ANSWER26:F:Socket
+:ANSWER26:T:Proxy Server
+:ANSWERORDER26:randomized
+:EXPLANATION26:A positive number is a number greater than zero. The relational operator > means "greater than". So the expression (x > 0) means, "x is positive".
+
+:QUEST27:200:How many ports of TCP/IP are reserved for specific protocols.
+:ANSWER27:F:10
+:ANSWER27:T:1024
+:ANSWER27:F:2048
+:ANSWER27:F:512
+:ANSWERORDER27:randomized
+:EXPLANATION27:A negative number is a number less than zero. The relational operator < means "less than". So the expression (x < 0) means, "x is negative".
+
+:QUEST28:300:Which of these is a full form of DNS.
+:ANSWER28:F:Data Network Service
+:ANSWER28:F:Data Name Service
+:ANSWER28:F:Domain Network Service
+:ANSWER28:T:Domian Name Service
+:ANSWERORDER28:randomized
+:EXPLANATION28:The equality operator is "==" (two equal signs). So the expression (x == 0) means, "x is zero".
+
+:QUEST29:400:Which of these class is used to encapsulate IP address and DNS.
+:ANSWER29:F:DatagramPacket
+:ANSWER29:F:URL
+:ANSWER29:T:InetAddress
+:ANSWER29:F:ContentHandler
+:ANSWERORDER29:randomized
+:EXPLANATION29:The algebra symbol \u2260 is not easy to make on a standard keyboard. Thus two symbols are used for inequality: "!=". Code the symbols in the order people normally say them.
+
+:QUEST30:500:How many bits are in a single IP address.
+:ANSWER30:F:8
+:ANSWER30:F:16
+:ANSWER30:T:32
+:ANSWER30:F:64
+:ANSWERORDER30:randomized
+:EXPLANATION30:Each operand (side of the operator) can be an arithmetic expression. The arithmetic is preformed before the comparison is made.
+

@@ -1,0 +1,208 @@
+# Single Round
+# Category format = :CATX:Category name, where X is the catgory number.
+# Question format = :QUESTX:$:Question test, where X is the question number
+#     and $ is the value displayed for the question.
+# Questions are linked to categories in groups of 5. For example, questions 1
+#     to 5 are in category 1, questions 6 to 10 in category 2, and so on.
+# Answer format = :ANSWERX:T/F:Answer text, where X is the question number and
+#     T/F is either T (for true) or F (for false). Answers are optional.
+# Answer order format = :ANSWERORDER1:randomized to shuffle the answers. Skip
+#     this statement if you do not wnat to randomize answers.
+# Explanation format = :EXPLANATIONX:Explanation text, where X is the question
+#     number. Note that you can force new lines using \n.
+
+:CAT1:Node
+
+:QUEST1:100:Which of the following statement is valid to use a Node module http in a Node based application?
+:ANSWER1:F:var http = import(“http");
+:ANSWER1:F:package http;
+:ANSWER1:T:var http = require("http");
+:ANSWER1:F:import http;	
+
+:QUEST2:200:Which method of fs module is used to delete a file?
+:ANSWER2:F:fs.remove(path, callback)
+:ANSWER2:T:fs.unlink(path, callback)
+:ANSWER2:F:fs.delete(path, callback)
+:ANSWER2:F:None of the above
+
+:QUEST3:300:Which of the following module is required for network specific operations?
+:ANSWER3:F:os module
+:ANSWER3:F:fs module
+:ANSWER3:T:net module
+:ANSWER3:F:None of the above
+
+:QUEST4:400:Which of the following command will show version of Node?
+:ANSWER4:F:$ npm --version
+:ANSWER4:F:$ node --version
+:ANSWER4:T:$ node getVersion
+:ANSWER4:F:$ npm getVersion
+
+:QUEST5:500:Which of the following module is required for DNS specific operations?
+:ANSWER5:F:net module
+:ANSWER5:F:web module
+:ANSWER5:T:dns module
+:ANSWER5:F:None of the above
+
+
+:CAT2:Angular
+
+:QUEST6:100:AngularJS directives are used in ________.
+:ANSWER6:T:View
+:ANSWER6:F:Model
+:ANSWER6:F:Controller
+:ANSWER6:F:Module
+
+:QUEST7:200:Which of the following directive bootstraps AngularJS framework?
+:ANSWER7:F:ng-init
+:ANSWER7:T:ng-app
+:ANSWER7:F:ng-controller
+:ANSWER7:F:ng-bootstrap
+
+:QUEST8:300:Which of the following is a valid AngularJS expression?
+:ANSWER8:F:{ 2 + 2 }
+:ANSWER8:T:{{ 2 + 2 }}
+:ANSWER8:F:(( 2 + 2 ))
+:ANSWER8:F:{ (2 + 2) }
+
+:QUEST9:400:AngularJS directives can be written in HTML element as:
+:ANSWER9:F:Tag
+:ANSWER9:F:Attribute
+:ANSWER9:F:Class name
+:ANSWER9:T:All of the above
+
+:QUEST10:500:The ng-model directive is used for __________.
+:ANSWER10:F:One-way data binding
+:ANSWER10:F:Binding view to controller
+:ANSWER10:T:Two-way data binding
+:ANSWER10:F:None of the above
+
+
+:CAT3:JS-1
+
+:QUEST11:100:Which of the following type of variable is visible everywhere in your JavaScript code?
+:ANSWER11:T:global variable
+:ANSWER11:F:local variable
+:ANSWER11:F:Both of the above
+:ANSWER11:F:None of the above
+
+:QUEST12:200:Which built-in method adds one or more elements to the end of an array and returns the new length of the array?
+:ANSWER12:T:push()
+:ANSWER12:F:last()
+:ANSWER12:F:put()
+:ANSWER12:F:None of the above
+
+:QUEST13:300:Which of the following function of String object returns the character at the specified index?
+:ANSWER13:T:charAt()
+:ANSWER13:F:charCodeAt()
+:ANSWER13:F:concat()
+:ANSWER13:F:indexOf()
+
+:QUEST14:400:Which of the following function of String object returns the index within the calling String object of the first occurrence of the specified value?
+:ANSWER14:T:indexOf()
+:ANSWER14:F:substr()
+:ANSWER14:F:search()
+:ANSWER14:F:lastIndexOf()
+
+:QUEST15:500:Which of the following function of String object causes a string to be displayed in a small font, as if it were in a <small> tag?
+:ANSWER15:T:small()
+:ANSWER15:F:link()
+:ANSWER15:F:sup()
+:ANSWER15:F:sub()
+
+
+:CAT4:JS-2
+
+:QUEST16:100:Which of the following function of String object extracts a section of a string and returns a new string?
+:ANSWER16:T:slice()
+:ANSWER16:F:split()
+:ANSWER16:F:replace()
+:ANSWER16:F:search()
+
+:QUEST17:200:Which of the following function of String object creates a string to be displayed in a big font as if it were in a <big> tag?
+:ANSWER17:F:italics()
+:ANSWER17:F:blink()
+:ANSWER17:F:anchor()
+:ANSWER17:T:big()
+
+:QUEST18:300:Which of the following function of Array object returns a new array comprised of this array joined with other array(s) and/or value(s)?
+:ANSWER18:T:concat()
+:ANSWER18:F:pop()
+:ANSWER18:F:push()
+:ANSWER18:F:some()
+
+:QUEST19:400:Which of the following function of Array object reverses the order of the elements of an array?
+:ANSWER19:T:reverse()
+:ANSWER19:F:push()
+:ANSWER19:F:reduce()
+:ANSWER19:F:reduceRight()
+
+:QUEST20:500:Which built-in method calls a function for each element in the array?
+:ANSWER20:F:while()
+:ANSWER20:T:forEach()
+:ANSWER20:F:loop()
+:ANSWER20:F:None of the above.
+
+:CAT5:MongoDb
+
+:QUEST21:100:Within how much time does MongDB writes are written to the journal?
+:ANSWER21:F:60 s
+:ANSWER21:T:100 ms
+:ANSWER21:F:1 s
+:ANSWER21:F:100 s
+
+:QUEST22:200:What is the default size of a GridFS chunk?.
+:ANSWER22:F:16 MB
+:ANSWER22:F:255 K
+:ANSWER22:T:1 MB
+:ANSWER22:F:2 MB
+
+:QUEST23:300:Which of the following aggregation commands in MongoDB does not support sharded collections?
+:ANSWER23:F:aggregate
+:ANSWER23:F:mapReduce
+:ANSWER23:T:group
+:ANSWER23:F:All of the above
+
+:QUEST24:400:By default, the MongoDB cursor in mongo shell is configured to return how many documents? To get the next set of documents, which command is used?
+:ANSWER24:T:20, it
+:ANSWER24:F:200, more
+:ANSWER24:F:50, it
+:ANSWER24:F:No limit, none
+
+:QUEST25:500:What is the default size of a GridFS chunk?
+:ANSWER25:F:16 MB
+:ANSWER25:T:255 K
+:ANSWER25:F:1 MB
+:ANSWER25:F:2 MB
+
+:CAT6:Mixed
+
+:QUEST26:100:The ng-bind directive binds ____________.
+:ANSWER26:F:Data to model
+:ANSWER26:F:View to controller
+:ANSWER26:T:Model to HTML element
+:ANSWER26:F:Model to $scope
+
+:QUEST27:200:The ng-change directive must be used with ng-model directives.
+:ANSWER27:T:True
+:ANSWER27:F:False
+:ANSWER27:F:Sometimes
+:ANSWER27:F:None of the above
+
+:QUEST28:300:Which of the following directive allows us to use form?
+:ANSWER28:T:ng-form
+:ANSWER28:F:ng-include
+:ANSWER28:F:ng-bind
+:ANSWER28:F:ng-attach
+
+:QUEST29:400:AngularJS module can be created using ________.
+:ANSWER29:T:angular.module();
+:ANSWER29:F:var myModule=new module();
+:ANSWER29:F:module.create();
+:ANSWER29:F:angular.create();
+
+:QUEST30:500:Which of the following service is used to retrieve or submit data to the remote server?
+:ANSWER30:T:$http
+:ANSWER30:F:$XMLHttpRequest
+:ANSWER30:F:$window
+:ANSWER30:F:$get
+

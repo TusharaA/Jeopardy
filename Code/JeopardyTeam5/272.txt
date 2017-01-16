@@ -1,0 +1,208 @@
+# Single Round
+# Category format = :CATX:Category name, where X is the catgory number.
+# Question format = :QUESTX:$:Question test, where X is the question number
+#     and $ is the value displayed for the question.
+# Questions are linked to categories in groups of 5. For example, questions 1
+#     to 5 are in category 1, questions 6 to 10 in category 2, and so on.
+# Answer format = :ANSWERX:T/F:Answer text, where X is the question number and
+#     T/F is either T (for true) or F (for false). Answers are optional.
+# Answer order format = :ANSWERORDER1:randomized to shuffle the answers. Skip
+#     this statement if you do not wnat to randomize answers.
+# Explanation format = :EXPLANATIONX:Explanation text, where X is the question
+#     number. Note that you can force new lines using \n.
+
+:CAT1:Cloud
+
+:QUEST1:100:Amazon Web Services is which type of cloud computing distribution model?
+:ANSWER1:F:Software as a service
+:ANSWER1:F:Platform as a service
+:ANSWER1:T:Infrastructure as a service
+:ANSWER1:F:Database as a service	
+
+:QUEST2:200:Which Amazon cloud product recently experienced a massive outage?
+:ANSWER2:F:SimpleDB
+:ANSWER2:T:EBS
+:ANSWER2:F:S3
+:ANSWER2:F:CloudFront
+
+:QUEST3:300:Which company recently shut the doors on its cloud storage service?
+:ANSWER3:F:Hitachi Data Systems
+:ANSWER3:F:Savvis
+:ANSWER3:T:Iron Mountain
+:ANSWER3:F:Symantec
+
+:QUEST4:400:Which of these services is not platform as a service?
+:ANSWER4:F:Force.com
+:ANSWER4:F:Microsoft Azure
+:ANSWER4:T:Amazon EC2
+:ANSWER4:F:Joyent
+
+:QUEST5:500:What feature does not belong in a private cloud?
+:ANSWER5:F:Metered billing
+:ANSWER5:F:Self-service portal
+:ANSWER5:T:Dial-home support
+:ANSWER5:F:Rapid elasticity
+
+
+:CAT2:Linux
+
+:QUEST6:100:Command used to create new directory.
+:ANSWER6:T:Mkdir
+:ANSWER6:F:Newdir
+:ANSWER6:F:Dir
+:ANSWER6:F:Mk/dir
+
+:QUEST7:200:Command used to create an empty file.
+:ANSWER7:F:Mtfile
+:ANSWER7:T:Touch
+:ANSWER7:F:Intouch
+:ANSWER7:F:File
+
+:QUEST8:300:Which is the commmand used to remove or delete file with out confirmation msg ?
+:ANSWER8:F:Rm-f
+:ANSWER8:T:Rm
+:ANSWER8:F:Del
+:ANSWER8:F:Remove
+
+:QUEST9:400:Command used to show the logger or user
+:ANSWER9:F:?
+:ANSWER9:T:Who
+:ANSWER9:F:Whereis
+:ANSWER9:F:???
+
+:QUEST10:500:"cat" is the command used to
+:ANSWER10:F:Change directory
+:ANSWER10:F:Move directory
+:ANSWER10:F:Come out of shell
+:ANSWER10:T:See the contents of file
+
+
+:CAT3:BigData
+
+:QUEST11:100:The information mapping data blocks with their corresponding files is stored in
+:ANSWER11:F:Data Node
+:ANSWER11:F:Job Tracker
+:ANSWER11:F:Task Tracker
+:ANSWER11:T:Namenode
+
+:QUEST12:200:When you increase the number of files stored in HDFS, The memory required by namenode
+:ANSWER12:T:Increases
+:ANSWER12:F:Decreases
+:ANSWER12:F:Remains unchanged
+:ANSWER12:F:May increase or decrease
+
+:QUEST13:300:Where did Hadoop get its name?
+:ANSWER13:T:Toy elephant
+:ANSWER13:F:It’s an acronym
+:ANSWER13:F:An imaginary friend
+:ANSWER13:F:A fictional character from literature
+
+:QUEST14:400:According to a very recent Jaspersoft survey, what is the most popular big data store?
+:ANSWER14:T:Relational Databases
+:ANSWER14:F:Hadoop HDFS
+:ANSWER14:F:Analytic Databases
+:ANSWER14:F:MongoDB
+
+:QUEST15:500:The datanode and namenode are, respectiviley, which of the following?
+:ANSWER15:T:Worker and Master nodes
+:ANSWER15:F:None of these
+:ANSWER15:F:Both are worker nodes
+:ANSWER15:F:Master and worker nodes
+
+
+:CAT4:Unix
+
+:QUEST16:100:Which symbol will be used with grep command to match the pattern pat at the beginning of a line?
+:ANSWER16:T:^pat
+:ANSWER16:F:$pat
+:ANSWER16:F:pat$
+:ANSWER16:F:pat^
+
+:QUEST17:200:Which command is used to sort the lines of data in a file in reverse order
+:ANSWER17:F:sort
+:ANSWER17:F:sh
+:ANSWER17:F:st
+:ANSWER17:T:sort -r
+
+:QUEST18:300:Which command is used to display the top of the file?
+:ANSWER18:T:head
+:ANSWER18:F:cat
+:ANSWER18:F:more
+:ANSWER18:F:grep
+
+:QUEST19:400:Which command is used to copy all files having the string chap and any two characters after that to the progs directory?
+:ANSWER19:T:cp chap?? progs
+:ANSWER19:F:cp chap* progs
+:ANSWER19:F:cp chap[12] /progs/*.*
+:ANSWER19:F:cp chap?? /progs/*
+
+:QUEST20:500:Which of the following keys is used to replace a single character with new text?
+:ANSWER20:F:S
+:ANSWER20:T:s
+:ANSWER20:F:r
+:ANSWER20:F:C
+
+:CAT5:Db
+
+:QUEST21:100:What is returned by SUBSTR(‘TUTORIALS POINT’, -1, 1)?
+:ANSWER21:T:T
+:ANSWER21:F:NULL
+:ANSWER21:F:0
+:ANSWER21:F:N
+
+:QUEST22:200:You want to calculate the minimum percentage of marks obtained under each honours group students, where the minimum marks is more than the minimum marks in economics department. Under which clause should the subquery be?
+:ANSWER22:F:Where clause
+:ANSWER22:F:From clause
+:ANSWER22:T:Having clause
+:ANSWER22:F:None of the above
+
+:QUEST23:300:Which of the following code will delete a sequence named loc_seq?
+:ANSWER23:T:drop sequence loc_seq;
+:ANSWER23:F:delete sequence loc_seq;
+:ANSWER23:F:drop primary key loc_seq;
+:ANSWER23:F:None of the above
+
+:QUEST24:400:A subquery can be placed in which of the SQL clauses?
+:ANSWER24:F:Where clause
+:ANSWER24:F:From clause
+:ANSWER24:F:Having clause
+:ANSWER24:T:All of the above
+
+:QUEST25:500:Which of the following comparison operators could be used in a multiple row query?
+:ANSWER25:F:IN operator
+:ANSWER25:F:ANY operator
+:ANSWER25:T:ALL operator
+:ANSWER25:F:All of the above
+
+:CAT6:Mixed
+
+:QUEST26:100:Which of the following is not a communication command.
+:ANSWER26:F:write
+:ANSWER26:F:mail
+:ANSWER26:T:grep
+:ANSWER26:F:mesg
+
+:QUEST27:200:Which of the following is not a character manipulation function?
+:ANSWER27:F:concat
+:ANSWER27:F:substr
+:ANSWER27:F:instr
+:ANSWER27:T:coalesce
+
+:QUEST28:300:This is the part of the Linux operating system that Linus Torvalds wrote.
+:ANSWER28:T:Kernel
+:ANSWER28:F:BIOS
+:ANSWER28:F:Shell
+:ANSWER28:F:Centrex
+
+:QUEST29:400:Which of the following commands is used to display the directory attributes rather than its contents?
+:ANSWER29:T:ls -l -d
+:ANSWER29:F:ls -l
+:ANSWER29:F:ls -x
+:ANSWER29:F:ls -F
+
+:QUEST30:500:Which of the following is not a developer’s privilege?
+:ANSWER30:T:CREATE USER
+:ANSWER30:F:CREATE TABLE
+:ANSWER30:F:CREATE VIEW
+:ANSWER30:F:CREATE SEQUENCE
+

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TextField
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TextField\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=text\ card\ isCorrect\ points
+comment1.target=TextField(java.lang.String,\ ICardComponent,\ boolean,\ int)
+comment1.text=public\ TextField(String\ text,ICardComponent\ card)\ {\r\n\ \ \ \ \ \ \ \ ans\ \=\ text;\r\n\ \ \ \ \ \ \ \ g\ \=\ new\ GreenfootImage(text,\ 30,\ Color.YELLOW\ ,\ null);\r\n\ \ \ \ \ \ \ \ g.scale(100,100);\r\n\ \ \ \ \ \ \ \ setImage(g);\r\n\ \ \ \ \ \ \ \ this.card\ \=card;\r\n}
+comment2.params=text\ card\ isCorrect
+comment2.target=TextField(java.lang.String,\ ICardComponent,\ boolean)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=printtext\ colorvalue
+comment4.target=void\ wordWrap(java.lang.String,\ java.awt.Color)
+comment5.params=obj
+comment5.target=void\ attach(Observer)
+comment6.params=obj
+comment6.target=void\ detach(Observer)
+comment7.params=point
+comment7.target=void\ notifyObserver(int)
+numComments=8

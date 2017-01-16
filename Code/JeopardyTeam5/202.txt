@@ -1,0 +1,403 @@
+# Single Round
+# Category format = :CATX:Category name, where X is the catgory number.
+
+# Question format = :QUESTX:$:Question test, where X is the question number
+
+#     and $ is the value displayed for the question.
+
+# Questions are linked to categories in groups of 5. For example, questions 1
+
+#     to 5 are in category 1, questions 6 to 10 in category 2, and so on.
+
+# Answer format = :ANSWERX:T/F:Answer text, where X is the question number and
+
+#     T/F is either T (for true) or F (for false). Answers are optional.
+
+# Answer order format = :ANSWERORDER1:randomized to shuffle the answers. Skip
+
+#     this statement if you do not wnat to randomize answers.
+
+# Explanation format = :EXPLANATIONX:Explanation text, where X is the question
+
+#     number. Note that you can force new lines using \n.
+
+
+
+:CAT1:Scrum
+
+
+
+:QUEST1:100:Which one of the following is not a Scrum role?
+
+:ANSWER1:T:Product Manager
+
+:ANSWER1:F:Product Owner
+
+:ANSWER1:F:ScrumMaster
+
+:ANSWER1:F:Team	
+
+
+
+:QUEST2:200:Which one of the following is not a Scrum Artifact?
+
+:ANSWER2:T:Story
+
+:ANSWER2:F:Item
+
+:ANSWER2:F:Sprint Backlog
+
+:ANSWER2:F:Product Backlog
+
+
+
+:QUEST3:300:What is the duration of a sprint in Scrum?
+
+:ANSWER3:T:30 days
+
+:ANSWER3:F:Sprint review meeting
+
+:ANSWER3:F:Sprint planning meeting
+
+:ANSWER3:F:Sprint retrospective meeting
+
+
+
+:QUEST4:400:Which of the following meetings is not part of Scrum?
+
+:ANSWER4:T:Product review meeting
+
+:ANSWER4:F:Sprint review meeting
+
+:ANSWER4:F:Sprint planning meeting
+
+:ANSWER4:F:Sprint retrospective meeting
+
+
+
+:QUEST5:500:What can be changed in a sprint?
+
+:ANSWER5:T:Nothing
+
+:ANSWER5:F:End date
+
+:ANSWER5:F:The prioritizing
+
+:ANSWER5:F:Items
+
+
+
+
+:CAT2:Agile
+
+
+
+:QUEST6:100:According to the manifesto, communications are best managed through:
+
+:ANSWER6:T:Face to face communications
+
+:ANSWER6:F:Daily Stand Up meetings
+
+:ANSWER6:F:Retrospectives
+
+:ANSWER6:F:Demonstrations
+
+
+
+:QUEST7:200:“Velocity” is a measure of:
+
+:ANSWER7:T:Project progress
+
+:ANSWER7:F:Customer buy-in
+
+:ANSWER7:F:Executive support
+
+:ANSWER7:F:Risk mitigation
+
+
+
+:QUEST8:300:Which of the following traits need to exist among the members of an agile software team?
+
+:ANSWER8:F:Competence
+
+:ANSWER8:F:Decision-making ability
+
+:ANSWER8:F:Mutual trust and respect
+
+:ANSWER8:T:All of the above
+
+
+
+:QUEST9:400:What are the four framework activities found in the Extreme Programming (XP) process model?
+:ANSWER9:F:analysis,design,coding,testing
+
+:ANSWER9:F:planning,analysis,design,coding
+
+:ANSWER9:F:planning,analysis,coding,testing
+
+:ANSWER9:T:planning,design,coding,testing
+
+
+
+:QUEST10:500:Agile Modeling (AM) provides guidance to practitioner during which of these software tasks?
+
+:ANSWER10:F:Analysis
+
+:ANSWER10:F:Design
+
+:ANSWER10:F:Coding
+
+:ANSWER10:T:Analysis & Design
+
+:ANSWERORDER10:randomized
+
+
+
+:CAT3:XP
+
+
+
+:QUEST11:100:Which planning cycle is part of XP 'Practices'
+
+:ANSWER11:T:Quarterly
+
+:ANSWER11:F:Monthly
+
+:ANSWER11:F:Yearly
+
+:ANSWER11:F:Half-Yearly
+
+
+
+:QUEST12:200:According to one of the 'Practice' in XP - System should be built and all of the tests should be finished within ___
+:ANSWER12:F:5 minute
+
+:ANSWER12:T:10 minute
+
+:ANSWER12:F:15 minute
+
+:ANSWER12:F:30 minute
+
+
+
+:QUEST13:300:Which of the following is the right activity sequence for XP?
+
+:ANSWER13:T:Write test,write code,refactor
+
+:ANSWER13:F:Write code,refactor,write test
+
+:ANSWER13:F:Write code,write test,refactor
+
+:ANSWER13:F:Design,write code,Write test
+
+
+
+:QUEST14:400:What is the frequency of Integration suggested by the XP?
+
+:ANSWER14:T:More often than daily
+
+:ANSWER14:F:Daily
+
+:ANSWER14:F:Weekly
+
+:ANSWER14:F:Alternate Day
+
+
+
+:QUEST15:500:Which Practice prescribe "the code is always written by two programmers at one machine"
+
+:ANSWER15:T:Pair Programming
+
+:ANSWER15:F:Twin Programming
+
+:ANSWER15:F:Peer Programming
+
+:ANSWER15:F:Buddy Programming
+
+
+
+:CAT4:Patterns-1
+
+:QUEST16:100:Which of the following pattern is used when creation of object directly is costly?
+
+:ANSWER16:T:Bridge Pattern
+
+:ANSWER16:F:Adapter Pattern
+
+:ANSWER16:F:Prototype Pattern
+
+:ANSWER16:F:Filter Pattern
+
+
+
+:QUEST17:200:Which of the following pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance?
+
+:ANSWER17:F:Composite Pattern
+
+:ANSWER17:F:Facade Pattern
+
+:ANSWER17:F:Decorator Pattern
+
+:ANSWER17:T:Flyweight Pattern
+
+
+
+:QUEST18:300:In which of the following pattern, a class behavior changes based on its state?
+
+:ANSWER18:T:State Pattern
+
+:ANSWER18:F:Strategy Pattern
+
+:ANSWER18:F:Singleton Pattern
+
+:ANSWER18:F:Template Pattern
+
+
+
+:QUEST19:400:Which of the following pattern is used to separate application's concerns?
+
+:ANSWER19:T:MVC Pattern
+
+:ANSWER19:F:Visitor Pattern
+
+:ANSWER19:F:Business Delegate Pattern
+
+:ANSWER19:F:Composite Pattern
+
+
+
+:QUEST20:500:Which type of design patterns concern class and object composition?
+
+:ANSWER20:F:Creational Design Patterns
+
+:ANSWER20:T:Structural Design Patterns
+
+:ANSWER20:F:Behavioral Design Patterns
+
+:ANSWER20:F:J2EE Design Patterns
+
+
+
+:CAT5:Patterns-2
+:QUEST21:100:Defines an interface for creating an object, but let the subclasses decide which class to instantiate.It let the instantiation differ to subclasses.
+
+:ANSWER21:T:Factory Method
+
+:ANSWER21:F:Abstract Factory
+
+:ANSWER21:F:Builder
+
+:ANSWER21:F:Prototype
+
+
+
+:QUEST22:200:Attach additional responsibilities to an object dynamically.It provides a flexible alternative to subclassing for extending functionality.
+
+:ANSWER22:T:Decorator
+
+:ANSWER22:F:Chain of responsibility
+
+:ANSWER22:F:Adapter
+
+:ANSWER22:F:Composite
+
+
+
+:QUEST23:300:Define a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it.
+
+:ANSWER23:T:Strategy
+
+:ANSWER23:F:Template method
+
+:ANSWER23:F:Decorator
+
+:ANSWER23:F:Visitor
+
+
+
+:QUEST24:400:Define one to many dependency between objects so that when one object change state, all its dependent are notified and updated automatically.
+
+:ANSWER24:F:Chain of responsibility
+
+:ANSWER24:F:Mediator
+
+:ANSWER24:F:Memento
+
+:ANSWER24:T:Observer
+
+
+
+:QUEST25:500:Encapsulate a request as an object, there by letting you parametrize clients with different requests, queue or log requests, and support undoable operation.
+
+:ANSWER25:F:Adapter
+
+:ANSWER25:F:Decorator
+
+:ANSWER25:T:Command
+
+:ANSWER25:F:Composite
+
+
+
+:CAT6:Mixed
+
+
+
+:QUEST26:100:Ensure a class has only one instance, and provide a global access point to it.
+
+:ANSWER26:T:Singleton
+
+:ANSWER26:F:Proxy
+
+:ANSWER26:F:Flyweight
+
+:ANSWER26:F:Facade
+
+
+
+:QUEST27:200:Scrum is a very lean process with only _ roles _ mandatory artifacts and _ mandatory meetings apart from daily scrum meeting in a sprint.
+
+:ANSWER27:F:4,3,4
+
+:ANSWER27:F:3,4,5
+
+:ANSWER27:F:4,4,4
+
+:ANSWER27:T:3,3,3
+
+
+
+:QUEST28:300:Which one of the following is a popular certification associated with Scrum?
+
+:ANSWER28:T:Certified ScrumMaster
+
+:ANSWER28:F:Certified ScrumManager
+
+:ANSWER28:F:Certified Scrum Trainer
+
+:ANSWER28:F:Scrum Certified
+
+
+
+:QUEST29:400:Which of the following are lean implementation requirements?
+
+:ANSWER29:T:Preventive maintenance
+
+:ANSWER29:F:Vertically integrated facilities
+
+:ANSWER29:F:Clarification of process flows
+
+:ANSWER29:F:Upgrade quality
+
+
+
+:QUEST30:500:Provide an unified interface to a set of interfaces in a subsystem.It define a higher level interface that makes the subsystem easier to use.
+
+:ANSWER30:T:Facade
+
+:ANSWER30:F:Mediator
+
+:ANSWER30:F:Adapter
+
+:ANSWER30:F:Strategy
+

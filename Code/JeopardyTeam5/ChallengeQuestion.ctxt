@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ChallengeQuestion
+comment1.params=que\ value
+comment1.target=ChallengeQuestion(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ChallengeQuestion\r\n
+comment2.params=que\ value\ cat
+comment2.target=ChallengeQuestion(java.lang.String,\ int,\ java.lang.String)
+comment3.params=answerText\ correct
+comment3.target=void\ addAnswer(java.lang.String,\ boolean)
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ICardComponent
+comment1.params=card
+comment1.target=void\ addQCard(ICardComponent)
+comment2.params=card
+comment2.target=void\ removeQCard(ICardComponent)
+comment3.params=card
+comment3.target=void\ displayQCard(ICardComponent)
+comment4.params=pos
+comment4.target=ICardComponent\ getQCard(int)
+numComments=5
